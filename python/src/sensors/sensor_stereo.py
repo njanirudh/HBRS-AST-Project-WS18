@@ -6,7 +6,7 @@ class SensorStereo(sensor_abstract_class.SensorAbstractClass):
         super().__init__()
 
         self.name = "Stereo Camera"
-        self.sensor_data = [('knife',1, 99), ('scissor', 2, 65), ('fork', 3, 33), ('spoon', 4, 80), ('keys', 5, 95)]
+        self.sensor_data = []
 
     def run_sensor(self):
         pass

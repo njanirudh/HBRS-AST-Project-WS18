@@ -29,11 +29,10 @@ class SensorFusion:
         :param in_sensor_list:
         :return:
         """
-        def takeSecond(elem):
-            return elem[1]
+        def sort_by_id(in_element):
+            return in_element[1]
 
-        in_fusion_list.sort(key=takeSecond)
-        print(in_fusion_list)
+        in_fusion_list.sort(key=sort_by_id)
 
 
     def process_input(self):
@@ -43,7 +42,7 @@ class SensorFusion:
         :return:
         """
         for sensor in self.sensors_list:
-            self.fusion_list.append(sensor.sensor_data)
+            self.fusion_list.extend(sensor.sensor_data)
 
         self.__sort_fusion_list(self.fusion_list)
 
