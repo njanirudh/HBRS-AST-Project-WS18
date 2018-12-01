@@ -1,5 +1,7 @@
 from abc import ABC , abstractmethod
 
+"""
+"""
 class SensorAbstractClass(ABC):
 
     def __init__(self):

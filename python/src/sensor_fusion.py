@@ -29,7 +29,7 @@ class SensorFusion:
         :param in_sensor_list:
         :return:
         """
-        pass
+
 
 
     def process_input(self):
@@ -38,7 +38,10 @@ class SensorFusion:
         :param in_algorithm_type:
         :return:
         """
-        pass
+        for sensor in self.sensors_list:
+            self.fusion_list.append(sensor.sensor_data)
+
+        self.__sort_fusion_list(self.fusion_list)
 
 
     def get_output(self):
