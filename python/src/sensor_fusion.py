@@ -1,4 +1,5 @@
 from enum import Enum
+from sensors import sensor_abstract_class
 
 class ALGORITHMS(Enum):
     MAX = 1
@@ -12,8 +13,8 @@ class SensorFusion:
         self.fusion_list = []
 
     def add_sensor(self,in_sensor):
-        if not isinstance(in_sensor,int):
-            pass
+        #if not isinstance(in_sensor,int):
+        pass
 
     def __sort_fusion_list(self):
         pass
