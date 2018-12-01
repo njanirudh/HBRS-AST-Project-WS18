@@ -1,4 +1,5 @@
 import unittest
+from sensor_fusion import SensorFusion
 
 def test_1():
     """
@@ -7,7 +8,6 @@ def test_1():
     """
     in_value_1 = []
     in_value_2 = str
-
 
 
 def test_2():
