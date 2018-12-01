@@ -23,13 +23,17 @@ class SensorFusion:
         #if not isinstance(in_sensor,int):
         self.sensors_list.append(in_sensor)
 
-    def __sort_fusion_list(self, in_sensor_list):
+    def __sort_fusion_list(self, in_fusion_list):
         """
 
         :param in_sensor_list:
         :return:
         """
+        def takeSecond(elem):
+            return elem[1]
 
+        in_fusion_list.sort(key=takeSecond)
+        print(in_fusion_list)
 
 
     def process_input(self):
