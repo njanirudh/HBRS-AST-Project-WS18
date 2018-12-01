@@ -12,7 +12,8 @@ class SensorFusion:
         self.fusion_list = []
 
     def add_sensor(self,in_sensor):
-        pass
+        if not isinstance(in_sensor,int):
+            pass
 
     def __sort_fusion_list(self):
         pass

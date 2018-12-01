@@ -10,11 +10,7 @@ class AlgorithmAbstractClass(ABC):
         pass
 
     @abstractmethod
-    def set_json_parameters(self):
-        pass
-
-    @abstractmethod
-    def process(self):
+    def process_input(self):
         pass
 
     @abstractmethod
