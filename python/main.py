@@ -1,9 +1,9 @@
-import pprint
+from pprint import pprint
 from sensor_fusion import SensorFusion
 from sensors import sensor_rgbd
 from sensors import sensor_stereo
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     sensor_fusion = SensorFusion()
 
     s1 = sensor_rgbd.SensorRGBD()
@@ -14,4 +14,4 @@ if __name__ == "__main__":
 
     sensor_fusion.process_input()
 
-    print(sensor_fusion.get_output())
+    pprint(sensor_fusion.get_output())

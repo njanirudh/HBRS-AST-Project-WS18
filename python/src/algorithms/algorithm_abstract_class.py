@@ -1,11 +1,14 @@
-from abc import ABC , abstractmethod
+from abc import ABC, abstractmethod
 
 """
 """
+
+
 class AlgorithmAbstractClass(ABC):
     """
 
     """
+
     def __init__(self):
         """
 
@@ -35,6 +38,3 @@ class AlgorithmAbstractClass(ABC):
         :return:
         """
         pass
-
-
-
