@@ -6,10 +6,6 @@ class SensorAbstractClass(ABC):
         super().__init__()
 
     @abstractmethod
-    def set_json_parameters(self):
-        pass
-
-    @abstractmethod
     def run_sensor(self):
         pass
 

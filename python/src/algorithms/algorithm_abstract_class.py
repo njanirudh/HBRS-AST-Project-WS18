@@ -14,6 +14,10 @@ class AlgorithmAbstractClass(ABC):
         pass
 
     @abstractmethod
+    def process(self):
+        pass
+
+    @abstractmethod
     def get_output(self):
         pass
 
