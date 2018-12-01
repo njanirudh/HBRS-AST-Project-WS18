@@ -1,6 +1,6 @@
 import unittest
 
-def test_1:
+def test_1():
     """
     Checks if the input data type is correct or not
     :return: Bool
@@ -10,7 +10,7 @@ def test_1:
 
 
 
-def test_2:
+def test_2():
     """
     Checks if the output values are correct for given sensor input values.
     :return: Bool
