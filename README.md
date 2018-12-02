@@ -6,7 +6,7 @@
 
 ## Overview
 
-The goal of this software is to take output from different sensors and then process them to give combined result.
+The goal of this software is to take output from different sensors and then process them to give combined result.    
 Project link : https://github.com/njanirudh/HBRS-AST-Project-WS18
 
 ## Requirements
@@ -48,6 +48,12 @@ For the initial prototype of the sensor fusion project the following are the req
     the sendor gets more complex, data can be stored and transfered as JSON to improve portablity and easy 
     serializing and deserializing.
     
+
+## Features to be added :    
+- [ ] Changing datastructure into JSON
+- [ ] Adding exception handling throughout the code base
+- [ ] Adding logging for the code base
+
 
 
 
