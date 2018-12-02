@@ -44,8 +44,8 @@ For the initial prototype of the sensor fusion project the following are the req
          - object name : string
          - object id   : int
          - confidance  : int
-    * For the current scenario the input can directly without intermidiate conversion. As the output from the 
-    the sendor gets more complex data can be stored and transfered as JSON to improve portablity and easy 
+    * For the current scenario the input is taken directly without intermidiate conversion. As the output from the 
+    the sendor gets more complex, data can be stored and transfered as JSON to improve portablity and easy 
     serializing and deserializing.
     
 
