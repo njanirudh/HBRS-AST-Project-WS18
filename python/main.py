@@ -15,3 +15,4 @@ if __name__ == "__main__":
     sensor_fusion.process_input()
 
     pprint(sensor_fusion.get_output())
+
