@@ -1,12 +1,16 @@
+import pprint
+
+"""
+Class for processing the outputs af all the sensors and processing
+them to give final output
+"""
 class SensorFusion:
-    """
-    Converting the list of input data to single list of objects with the
-    highest confidence
-    """
+
 
     def __init__(self):
         """
-        Initializing the input and output lists
+        Initializing the input and output list data
+        of the class
         """
         self.sensors_list = []
         self.fusion_list = []
@@ -14,19 +18,19 @@ class SensorFusion:
 
     def add_sensor(self, in_sensor):
         """
-        Creates a single list of all the sensors
-        :param in_sensor: input sensor
+        Adding sensors to the sensor function object
+        :param in_sensor: sensor object
         :return: None
         """
         self.sensors_list.append(in_sensor)
 
     def __sort_fusion_list(self, in_fusion_list):
         """
-        Sorts the single list of all the data of various sensors
+        Sorts the list of all the sensor data associated
+        with sensor fusion object.
         :param in_sensor_list: input sensor list
         :return: None
         """
-
         def __sort_by_id(in_element):
             return in_element[1]
 
@@ -34,7 +38,8 @@ class SensorFusion:
 
     def __get_maximum_confidence(self, in_sorted_list):
         """
-        Results in the list of maximum confidence of objects from the input data
+        Generate the list of maximum confidence of objects
+        from the processed input sensor data
         :return: None
         """
 
@@ -58,10 +63,11 @@ class SensorFusion:
 
     def process_input(self):
         """
-
-        :param in_algorithm_type:
-        :return:
+        The functions called to process the added sensor
+        data.
+        :return: None
         """
+
         for sensor in self.sensors_list:
             self.fusion_list.extend(sensor.sensor_data)
 
@@ -70,7 +76,8 @@ class SensorFusion:
 
     def get_output(self):
         """
-        Returns the output list
-        :return:
+        Returns the output list of the processed sensor data
+        :return: list of output
         """
+
         return self.output_list

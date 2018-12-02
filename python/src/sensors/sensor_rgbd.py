@@ -1,9 +1,8 @@
 from sensors import sensor_abstract_class
 
 """
+
 """
-
-
 class SensorRGBD(sensor_abstract_class.SensorAbstractClass):
 
     def __init__(self):

@@ -1,14 +1,14 @@
 from abc import ABC, abstractmethod
 
 """
+Abstract class which all sensor classes should inherit.
 """
-
-
 class SensorAbstractClass(ABC):
 
     def __init__(self):
         """
-
+        Initializing the basic data of the class
+        and sensor
         """
         super().__init__()
         self.sensor_name = str
@@ -17,23 +17,25 @@ class SensorAbstractClass(ABC):
     @abstractmethod
     def run_sensor(self):
         """
-
-        :return:
+        Method to extract data from the sensor ,
+        preprocess the result run any algorithm
+        on the sensor data.
+        :return: None
         """
         pass
 
     @abstractmethod
     def get_results(self):
         """
-
-        :return:
+        Returns the processed data of the sensor.
+        :return: list of results
         """
         pass
 
     @abstractmethod
     def __str__(self):
         """
-
-        :return:
+        Return the details like name , sensor ID etc
+        :return: string
         """
         pass

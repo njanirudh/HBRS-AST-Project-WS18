@@ -23,11 +23,13 @@ class TestingList(unittest.TestCase):
 
         self.output_list = sensor_fusion.get_output()
         self.expected_list = [('knife', 1, 99), ('scissor', 2, 95), ('fork', 3, 99), ('spoon', 4, 99), ('keys', 5, 95)]
+
         return self.output_list, self.expected_list
 
     def test_list_count(self):
         """
-        Checks if the input data and output data had similar count
+        Checks if the output and expected output list have the
+        same length
         :return: Bool
         """
         output, expected = TestingList.initializing_lists(self)
@@ -35,7 +37,7 @@ class TestingList(unittest.TestCase):
 
     def test_list_elem(self):
         """
-        Checks if the output values are correct for given sensor input values.
+        Checks if the output and expected output list are the same
         :return: Bool
         """
         output, expected = TestingList.initializing_lists(self)
