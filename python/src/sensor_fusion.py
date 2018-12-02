@@ -1,11 +1,7 @@
-from enum import Enum
-from sensors import sensor_abstract_class
-
-
 class SensorFusion:
     """
-
-
+    Converting the list of input data to single list of objects with the
+    highest confidence
     """
 
     def __init__(self):

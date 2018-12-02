@@ -1,4 +1,5 @@
 from pprint import pprint
+
 from sensor_fusion import SensorFusion
 from sensors import sensor_rgbd
 from sensors import sensor_stereo
@@ -15,4 +16,3 @@ if __name__ == "__main__":
     sensor_fusion.process_input()
 
     pprint(sensor_fusion.get_output())
-
