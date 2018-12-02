@@ -1,4 +1,5 @@
 from pprint import pprint
+
 from sensor_fusion import SensorFusion
 from sensors import sensor_rgbd
 from sensors import sensor_stereo

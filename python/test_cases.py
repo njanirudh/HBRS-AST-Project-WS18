@@ -1,35 +1,46 @@
+import unittest
+
 from sensor_fusion import SensorFusion
 from sensors import sensor_rgbd
 from sensors import sensor_stereo
 
 
-def test_1():
-    """
-    Checks if the input data type is correct or not
-    :return: Bool
-    """
-    in_value_1 = []
-    in_value_2 = str
+class TestingList(unittest.TestCase):
+    def initializing_lists(self):
+        """
+        Initializing the output list of the program and expected list of the user
+        :return:
+        """
+        sensor_fusion = SensorFusion()
 
+        s1 = sensor_rgbd.SensorRGBD()
+        sensor_fusion.add_sensor(s1)
 
-def test_2():
-    """
-    Checks if the output values are correct for given sensor input values.
-    :return: Bool
-    """
-    sensor_fusion = SensorFusion()
+        s2 = sensor_stereo.SensorStereo()
+        sensor_fusion.add_sensor(s2)
 
-    s1 = sensor_rgbd.SensorRGBD()
-    sensor_fusion.add_sensor(s1)
+        sensor_fusion.process_input()
 
-    s2 = sensor_stereo.SensorStereo()
-    sensor_fusion.add_sensor(s2)
+        self.output_list = sensor_fusion.get_output()
+        self.expected_list = [('knife', 1, 99), ('scissor', 2, 95), ('fork', 3, 99), ('spoon', 4, 99), ('keys', 5, 95)]
+        return self.output_list, self.expected_list
 
-    sensor_fusion.process_input()
+    def test_list_count(self):
+        """
+        Checks if the input data and output data had similar count
+        :return: Bool
+        """
+        output, expected = TestingList.initializing_lists(self)
+        self.assertCountEqual(output, expected)
 
-    print(sensor_fusion.get_output())
+    def test_list_elem(self):
+        """
+        Checks if the output values are correct for given sensor input values.
+        :return: Bool
+        """
+        output, expected = TestingList.initializing_lists(self)
+        self.assertListEqual(output, expected)
 
 
 if __name__ == "__main__":
-    test_1()
-    test_2()
+    unittest.main()
