@@ -6,8 +6,7 @@ class SensorRGBD(sensor_abstract_class.SensorAbstractClass):
     def __init__(self):
         super().__init__()
         self.name = "RGDB Sensor"
-        self.sensor_data = [("knife", 1, 99), ("scissor", 2, 65),
-                            ("spoon", 3, 33), ("spoon", 4, 80), ("keys", 5, 95)]
+        self.sensor_data = []
 
     def run_sensor(self):
         pass
