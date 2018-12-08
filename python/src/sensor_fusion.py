@@ -54,7 +54,7 @@ class SensorFusion:
                 self.output_list.append(max_tuple)
 
         except:
-            print("Error : Sensor data not correct ")
+            print("Error : Empty list ")
 
     def process_input(self):
         """
