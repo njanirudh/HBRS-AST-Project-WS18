@@ -24,9 +24,8 @@ class SensorAbstractClass(ABC):
     @abstractmethod
     def set_algorithm(self,in_algo):
         """
-        Method to extract data from the sensor ,
-        preprocess the result run any algorithm
-        on the sensor data.
+        Setting the algorithm to be used on the
+        data of the sensor
         :return: None
         """
         pass
