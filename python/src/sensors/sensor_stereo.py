@@ -9,6 +9,9 @@ class SensorStereo(sensor_abstract_class.SensorAbstractClass):
         self.name = "Stereo Camera"
         self.sensor_data = []
 
+    def set_algorithm(self,in_algo):
+        pass
+
     def run_sensor(self):
         pass
 

@@ -1,8 +1,14 @@
 from abc import ABC, abstractmethod
+from enum import Enum
 
 """
 Abstract class which all sensor classes should inherit.
 """
+
+class ALGO(Enum):
+    ImageMatching = 1
+    SemanticSegmentation = 2
+
 class SensorAbstractClass(ABC):
 
     def __init__(self):
@@ -13,6 +19,17 @@ class SensorAbstractClass(ABC):
         super().__init__()
         self.sensor_name = str
         self.sensor_data = []
+        self.algo = ALGO.ImageMatching
+
+    @abstractmethod
+    def set_algorithm(self,in_algo):
+        """
+        Method to extract data from the sensor ,
+        preprocess the result run any algorithm
+        on the sensor data.
+        :return: None
+        """
+        pass
 
     @abstractmethod
     def run_sensor(self):

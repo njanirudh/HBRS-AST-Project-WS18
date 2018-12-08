@@ -8,6 +8,9 @@ class SensorRGBD(sensor_abstract_class.SensorAbstractClass):
         self.name = "RGDB Sensor"
         self.sensor_data = []
 
+    def set_algorithm(self,in_algo):
+        pass
+
     def run_sensor(self):
         pass
 
