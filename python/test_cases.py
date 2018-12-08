@@ -14,9 +14,11 @@ class TestingList(unittest.TestCase):
         sensor_fusion = SensorFusion()
 
         s1 = sensor_rgbd.SensorRGBD()
+        s1.set_algorithm(s1.algo.SemanticSegmentation)
         sensor_fusion.add_sensor(s1)
 
         s2 = sensor_stereo.SensorStereo()
+        s2.set_algorithm(s1.algo.SemanticSegmentation)
         sensor_fusion.add_sensor(s2)
 
         sensor_fusion.process_input()
