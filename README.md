@@ -22,6 +22,8 @@ For the initial prototype of the sensor fusion project the following are the req
 
 ## Design Choices
 
+The design choices are such that S.O.L.I.D principles are being used along with good coding practices to make the code readable , extensible and testable.
+
 * Algorithm :
     * Each computer vision algorithm is a seperate class .
     * This class makes use of the **Bridge design pattern** to decounple abstraction and the implementation of the class.
