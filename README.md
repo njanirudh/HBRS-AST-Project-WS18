@@ -9,6 +9,16 @@
 The goal of this software is to take output from different sensors and then process them to give combined result.    
 Project link : https://github.com/njanirudh/HBRS-AST-Project-WS18
 
+## Week 1 Update :
+
+* Since the architecture of the code was well designed and the classes were properly decoupled, no major refactoring was required.
+
+The code already had provisions to add extra sensors and algorithms so no major class changes were made.
+
+Only a minor bug was found for one of the test case so a single line code change could solve the problem. More about the bug is given in the 'error_report.md'.
+
+
+
 ## Requirements
 
 For the initial prototype of the sensor fusion project the following are the requirements that are used.
@@ -19,6 +29,7 @@ For the initial prototype of the sensor fusion project the following are the req
 * Data structure : 
     * Input : list of tuples    
     * Output: list of tuples    
+* Design Patterns : Bridge design pattern
 
 ## Design Choices
 
