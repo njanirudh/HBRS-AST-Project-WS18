@@ -33,13 +33,13 @@ The design choices are such that S.O.L.I.D principles are being used along with 
 
 * Algorithm :
     * Each computer vision algorithm is a seperate class .
-    * This class makes use of the **Bridge design pattern** to decounple abstraction and the implementation of the class.
+    * This class makes use of the **Bridge design pattern** to decouple abstraction and the implementation of the class.
     * 'algorithm_abstract_class.py' holds the basic structure of the Algorithm class.
     * This structure can help in adding multiple algorithms to the software and test them when required.
     
 * Sensor :
     * Each sensor is a seperate class.
-    * This class makes use of the **Bridge design pattern** to decounple abstraction and the implementation of the class.
+    * This class makes use of the **Bridge design pattern** to decouple abstraction and the implementation of the class.
     * 'sensor_abstract_class.py' holds the basic structure of the Sensor class.
     * Each sensor class will be resposible for storing the sensor properties along with the sensor preprocessing.
     * The modular sensor class helps in adding new and removing sensors without affecting structure of the code.
