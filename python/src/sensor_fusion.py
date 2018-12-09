@@ -47,6 +47,9 @@ class SensorFusion:
             return in_element[2]
 
         try:
+            # Since the list is sorted in ascending order
+            # we can find the largest index by considering
+            # the last item of the list.
             max_id = in_sorted_list[-1][1]
 
             for index in range(1, max_id + 1):
@@ -55,8 +58,9 @@ class SensorFusion:
                 for item in in_sorted_list:
                     if index == item[1]:
                         current_index.append(item)
-                max_tuple = max(current_index, key=__sort_by_confidence)
-                self.output_list.append(max_tuple)
+                if current_index :
+                    max_tuple = max(current_index, key=__sort_by_confidence)
+                    self.output_list.append(max_tuple)
 
         except:
             print("Error : Empty list ")
