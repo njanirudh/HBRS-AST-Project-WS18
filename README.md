@@ -1,3 +1,7 @@
+
+![](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)
+
+
 # HBRS-AST-Project-WS18
 
 ## Authors
