@@ -13,6 +13,13 @@
 The goal of this software is to take output from different sensors and then process them to give combined result.    
 Project link : https://github.com/njanirudh/HBRS-AST-Project-WS18
 
+## Week 2 Update :
+
+* Readme updates : Basic readme of the general working of the software along with design consideration and test cases were already written previously.
+* Documentation about the installation and the relevant files to check for running the code is written.
+* Release version is being created for every update and was also previously done.
+
+
 ## Week 1 Update :
 
 * Since the architecture of the code was well designed and the classes were properly decoupled, no major refactoring was required.
@@ -76,7 +83,7 @@ The design choices are such that S.O.L.I.D principles are being used along with 
 - [ ] Changing datastructure into JSON
 - [ ] Adding exception handling throughout the code base
 - [ ] Adding logging for the code base
-
+- [ ] Porting the project to C++ 
 
 
 
