@@ -1,10 +1,8 @@
 import unittest
 import os, sys
 
-parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append('./src')
 
-print(parent_dir)
 
 from sensor_fusion import SensorFusion
 from sensors import sensor_rgbd
