@@ -31,6 +31,14 @@ For the initial prototype of the sensor fusion project the following are the req
     * Output: list of tuples    
 * Design Patterns : Bridge design pattern
 
+## Installation 
+
+* Make sure you have the required python version given in the Requirements above.
+* Download the latest release folder to the required path.(https://github.com/njanirudh/HBRS-AST-Project-WS18/releases)
+* Extract the source.zip file and go to python folder.
+* Run the 'main.py' file to run a general case of sensor integration with a random test case.
+* To run test case use 'test_cases.py' file. The documentation to create custom test case is given in the file.
+
 ## Design Choices
 
 The design choices are such that S.O.L.I.D principles are being used along with good coding practices to make the code readable , extensible and testable.
