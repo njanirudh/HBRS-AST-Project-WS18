@@ -51,7 +51,7 @@ For the initial prototype of the sensor fusion project the following are the req
 ## Installation 
 
 * Make sure you have the required python version given in the Requirements above.
-* Download the latest release folder to the required path.(https://github.com/njanirudh/HBRS-AST-Project-WS18/releases)
+* Download the [latest release](https://github.com/njanirudh/HBRS-AST-Project-WS18/releases) folder to the required path.
 * Extract the source.zip file and go to 'ast_project_2018' folder.
 * Run the 'main.py' file to run a general case of sensor integration with a random test case.     
 ```python3 main.py```
