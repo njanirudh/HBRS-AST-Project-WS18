@@ -20,9 +20,10 @@ Project link : https://github.com/njanirudh/HBRS-AST-Project-WS18
 ## Week 2 Update :
 
 * Readme updates : Basic readme of the general working of the software along with design consideration and test cases were already written.
-* Integration of Travis CI to the repository.
+* Integration of Travis CI to the repository and basic [documentation](https://github.com/njanirudh/HBRS-AST-Project-WS18/blob/master/docs/CI.md).
 * Comments given for all the issues added or relevant changes made where required
-* Documentation about the installation and the relevant files to check for running the code is written.
+* Test cases and [related documentation](https://github.com/njanirudh/HBRS-AST-Project-WS18/blob/master/docs/error_report.md) are added.
+* Documentation about the installation and the relevant files to check for running the code is written in Readme.md.
 * Added codefactor.io for code quality check.
 * Release version is being created for every update and was also previously done.
 * Added badges to the repository
