@@ -1,5 +1,6 @@
 from pprint import pprint
-import os, sys
+import os
+import sys
 
 sys.path.append('./src')
 

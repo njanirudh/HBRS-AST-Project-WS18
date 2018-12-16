@@ -1,5 +1,6 @@
 import unittest
-import os, sys
+import os
+import sys
 
 sys.path.append('./src')
 
