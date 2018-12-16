@@ -1,10 +1,10 @@
 from abc import ABC, abstractmethod
 
-"""
-Abstract class which all algorithm classes should inherit.
-"""
-class AlgorithmAbstractClass(ABC):
 
+class AlgorithmAbstractClass(ABC):
+    """
+    Abstract class which all algorithm classes should inherit.
+    """
 
     def __init__(self):
         """
