@@ -2,4 +2,5 @@
   python:
     - "3.6"
   script:
-    - python/test_cases
+    - ca python
+    - python test_cases.py
