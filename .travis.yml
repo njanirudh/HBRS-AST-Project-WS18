@@ -2,8 +2,8 @@
   python:
     - "3.6"
   install:
-    - 
+    -
  
   script:
     - cd python
-    - python test_cases.py
+    - python3 test_cases.py

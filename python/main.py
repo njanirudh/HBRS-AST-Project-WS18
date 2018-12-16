@@ -1,4 +1,8 @@
 from pprint import pprint
+import os
+import sys
+
+sys.path.append('./src')
 
 from sensor_fusion import SensorFusion
 from sensors import sensor_rgbd
