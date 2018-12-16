@@ -1,15 +1,16 @@
 from abc import ABC, abstractmethod
 from enum import Enum
 
-"""
-Abstract class which all sensor classes should inherit.
-"""
+
 
 class ALGO(Enum):
     ImageMatching = 1
     SemanticSegmentation = 2
 
 class SensorAbstractClass(ABC):
+    """
+    Abstract class which all sensor classes should inherit.
+    """
 
     def __init__(self):
         """

@@ -1,11 +1,10 @@
 import pprint
 
-"""
-Class for processing the outputs af all the sensors and processing
-them to give final output
-"""
 class SensorFusion:
-
+    """
+    Class for processing the outputs af all the sensors and processing
+    them to give final output
+    """
 
     def __init__(self):
         """
@@ -62,7 +61,7 @@ class SensorFusion:
                     max_tuple = max(current_index, key=__sort_by_confidence)
                     self.output_list.append(max_tuple)
 
-        except:
+        except IndexError:
             print("Error : Empty list ")
 
     def process_input(self):
