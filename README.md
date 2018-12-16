@@ -1,6 +1,6 @@
 
 ![](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/badge/master)](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/overview/master)
 
 # HBRS-AST-Project-WS18
 
@@ -33,6 +33,7 @@ For the initial prototype of the sensor fusion project the following are the req
 * Language : Python 3.6
 * Coding Standard : PEP08
 * Testing Framework : python unittest
+* Code Quality check: CodeFactor.io
 * Data structure : 
     * Input : list of tuples    
     * Output: list of tuples    
