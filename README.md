@@ -21,6 +21,7 @@ Project link : https://github.com/njanirudh/HBRS-AST-Project-WS18
 * Documentation about the installation and the relevant files to check for running the code is written.
 * Added codefactor.io for code quality check.
 * Release version is being created for every update and was also previously done.
+* Added badges to the repository
 
 
 ## Week 1 Update :
