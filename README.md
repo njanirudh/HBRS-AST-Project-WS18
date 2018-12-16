@@ -1,6 +1,8 @@
 
 ![](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/badge/master)](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/overview/master)
+[![HitCount](http://hits.dwyl.io/njanirudh/HBRS-AST-Project-WS18.svg)](http://hits.dwyl.io/njanirudh/HBRS-AST-Project-WS18)
+
 
 # HBRS-AST-Project-WS18
 
