@@ -15,7 +15,7 @@ Project link : https://github.com/njanirudh/HBRS-AST-Project-WS18
 
 ## Week 2 Update :
 
-* Readme updates : Basic readme of the general working of the software along with design consideration and test cases were already written previously.
+* Readme updates : Basic readme of the general working of the software along with design consideration and test cases were already written.
 * Documentation about the installation and the relevant files to check for running the code is written.
 * Added codefactor.io for code quality check.
 * Release version is being created for every update and was also previously done.
