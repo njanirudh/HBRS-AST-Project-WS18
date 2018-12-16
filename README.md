@@ -19,7 +19,7 @@ Project link : https://github.com/njanirudh/HBRS-AST-Project-WS18
 
 * Readme updates : Basic readme of the general working of the software along with design consideration and test cases were already written.
 * Integration of Travis CI to the repository.
-* Comments given for all the issues added by you or relevant changes made where required
+* Comments given for all the issues added or relevant changes made where required
 * Documentation about the installation and the relevant files to check for running the code is written.
 * Added codefactor.io for code quality check.
 * Release version is being created for every update and was also previously done.
@@ -49,9 +49,11 @@ For the initial prototype of the sensor fusion project the following are the req
 
 * Make sure you have the required python version given in the Requirements above.
 * Download the latest release folder to the required path.(https://github.com/njanirudh/HBRS-AST-Project-WS18/releases)
-* Extract the source.zip file and go to python folder.
-* Run the 'main.py' file to run a general case of sensor integration with a random test case.
-* To run test case use 'test_cases.py' file. The documentation to create custom test case is given in the file.
+* Extract the source.zip file and go to 'ast_project_2018' folder.
+* Run the 'main.py' file to run a general case of sensor integration with a random test case.     
+```python3 main.py```
+* To run test case use 'test_cases.py' file. The documentation to create custom test case is given in the file.     
+```python3 main.py```
 
 ## Design Choices
 
