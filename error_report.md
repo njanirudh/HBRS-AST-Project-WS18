@@ -1,7 +1,10 @@
-The program was failed with the following case:
-[(knife,1, 94%),(knife,1, 69%),(knife,1, 89%)]
-[(knife,1, 99%),(fork, 3, 99%)]
+
 ### Update 1 : Error_case :
+
+The program was failed with the following case:    
+* input 1 : [(knife,1, 94%),(knife,1, 69%),(knife,1, 89%)]
+* inpupt 2 :[(knife,1, 99%),(fork, 3, 99%)]
+
 ##### Error origin: ast_project_2018 > src > sensor_fusion.py
 If the current index is empty, the loop doesn't go to the condition of finding maximum as it is not defined.
 ##### Solution: 
