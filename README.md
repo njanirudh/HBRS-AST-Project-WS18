@@ -1,5 +1,4 @@
 
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/njanirudh/HBRS-AST-Project-WS18/releases/)
 [![Build Status](https://travis-ci.org/njanirudh/HBRS-AST-Project-WS18.svg?branch=master)](https://travis-ci.org/njanirudh/HBRS-AST-Project-WS18)
 [![CodeFactor](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/badge/master)](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/overview/master)
 [![HitCount](http://hits.dwyl.io/njanirudh/HBRS-AST-Project-WS18.svg)](http://hits.dwyl.io/njanirudh/HBRS-AST-Project-WS18)
