@@ -5,5 +5,5 @@
     -
  
   script:
-    - cd python
+    - cd ast_project_2018
     - python3 test_cases.py
