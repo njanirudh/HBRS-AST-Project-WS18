@@ -44,6 +44,8 @@ For the initial prototype of the sensor fusion project the following are the req
 * Coding Standard : PEP08
 * Testing Framework : python unittest
 * Code Quality check: CodeFactor.io
+* Continuous Integration : travis.ci
+* Code Coverage  : coverall.io
 * Data structure : 
     * Input : list of tuples    
     * Output: list of tuples    
