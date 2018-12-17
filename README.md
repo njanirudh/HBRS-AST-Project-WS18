@@ -43,7 +43,7 @@ For the initial prototype of the sensor fusion project the following are the req
 * Language : Python 3.6
 * Coding Standard : PEP08
 * Testing Framework : [python unittest](https://docs.python.org/3/library/unittest.html)
-* Code Quality check: [CodeFactor.io](https://www.codefactor.io/)
+* Code Quality check: [codefactor.io](https://www.codefactor.io/)
 * Continuous Integration : [travis.ci](https://travis-ci.org/)
 * Code Coverage  : [coverall.io](https://coveralls.io/)
 * Data structure : 
