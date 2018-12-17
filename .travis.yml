@@ -7,6 +7,6 @@
     - pip install coveralls
   script:
     - cd ast_project_2018
-    - coverage run test_cases.py 
+    - coverage run test_cases.py
   after_success:
   - coveralls
