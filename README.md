@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/njanirudh/HBRS-AST-Project-WS18.svg?branch=master)](https://travis-ci.org/njanirudh/HBRS-AST-Project-WS18)
 ![](https://img.shields.io/github/issues/njanirudh/HBRS-AST-Project-WS18.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/badge/master)](https://www.codefactor.io/repository/github/njanirudh/hbrs-ast-project-ws18/overview/master)
+[![Coverage Status](https://coveralls.io/repos/github/njanirudh/HBRS-AST-Project-WS18/badge.svg)](https://coveralls.io/github/njanirudh/HBRS-AST-Project-WS18)
 [![HitCount](http://hits.dwyl.io/njanirudh/HBRS-AST-Project-WS18.svg)](http://hits.dwyl.io/njanirudh/HBRS-AST-Project-WS18)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/njanirudh/HBRS-AST-Project-WS18/blob/master/LICENSE)
 
